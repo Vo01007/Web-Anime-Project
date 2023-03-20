@@ -1,0 +1,218 @@
+﻿
+@{
+    ViewBag.Title = "Catalog";
+}
+<!--  ************************* Page Title Starts Here ************************** -->
+<div class="page-nav no-margin row">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-start">Каталог всех продуктов</h2>
+            <ul>
+                <li> <a href="/"><i class="bi bi-house-door"></i> Домашняя страница</a></li>
+                <li><i class="bi bi-chevron-double-right pe-2"></i> Просмотр всех продуктов</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid  py-5 product-cover">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-3">
+                <h4 class="fs-5">Фильтр по категориям</h4>
+                <ul class="filt">
+                    <li> <input class="form-check-input me-1 bg-danger border-danger" checked type="checkbox" value="" id="flexCheckDefault"> Toy </li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault">Gift</a></li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault"> Computer & Mobile Accessories</a></li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault"> Gift Cards</a></li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault"> Mug</a></li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault"> Plush Toy</a></li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault"> Love & Romance</a></li>
+                </ul>
+
+                <h4 class="fs-5 mt-3">Фильтр по цене</h4>
+                <ul class="filt">
+                    <li> <input class="form-check-input me-1 bg-danger border-danger" checked type="checkbox" value="" id="flexCheckDefault"> 5$ t0 10$ </li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault"> 10$ to 20$</a></li>
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" checked type="checkbox" value="" id="flexCheckDefault"> 20$ to 30$</a></li>
+
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" checked type="checkbox" value="" id="flexCheckDefault" /> 30$ to 50$</a></li>
+
+                    <li><a href=""><input class="form-check-input me-1 bg-danger border-danger" type="checkbox" value="" id="flexCheckDefault" /> 50$ to 100$</a></li>
+                </ul>
+
+
+                <h4 class="fs-5 mt-3">Фильтр по производителям</h4>
+                <ul class="filt">
+                    <li>  <input class="form-check-input border-danger bg-danger" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"> Aviva </li>
+                    <li>  <input class="form-check-input border-danger bg-danger" checked type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked> Benquee </li>
+                    <li>  <input class="form-check-input border-danger bg-danger" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"> Moser Bear </li>
+                    <li>  <input class="form-check-input border-danger bg-danger" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"> Vandesal</li>
+                    <li>  <input class="form-check-input border-danger bg-danger" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"> Open Grid</li>
+                    <li>  <input class="form-check-input border-danger bg-danger" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"> Green Wonder</li>
+                    <li>  <input class="form-check-input border-danger bg-danger" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"> Wool Master</li>
+                    <li>  <input class="form-check-input border-danger bg-danger" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"> Gray Land</li>
+
+                </ul>
+
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center">
+                                <a href="/product1">
+                                    <img src="~/Content/images/p1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">Tokyo Revengers Chifuyu Matsuno Portrait Acrylic Key Chain</h4>
+                                <b class="fs-4 text-danger">$10.00</b>
+                                <s class="fs-5 ps-3">14.00</s>
+
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="/product1">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Просмотр</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="btn fw-bold w-100 btn-outline-danger">В корзину</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center">
+                                <a href="/product2">
+                                    <img src="~/Content/images/p2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">Chainsaw Man 8'' Pochita Sitting Plush Toy</h4><br />
+                                <b class="fs-4 text-danger">$22.00</b>
+                                <s class="fs-5 ps-3">60.00</s>
+
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="/product2">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Просмотр</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="btn fw-bold w-100 btn-outline-danger">В корзину</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center">
+                                <a href="/product3">
+                                    <img src="~/Content/images/p3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">Attack on Titan Jean Coffee Mug Cup</h4>
+                                <b class="fs-4 text-danger">$11.00</b>
+                                <s class="fs-5 ps-3">14.00</s>
+
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="/product3">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Просмотр</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="btn fw-bold w-100 btn-outline-danger">В корзину</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="bg-white p-2 shadow-md">
+                            <div class="text-center">
+                                <a href="/product4">
+                                    <img src="~/Content/images/p4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="detail p-2">
+                                <h4 class="mb-1 fs-5 fw-bold">Avatar the Last Airbender 6'' Aang Plush Doll</h4>
+                                <b class="fs-4 text-danger">$19.00</b>
+                                <s class="fs-5 ps-3">23.00</s>
+
+                                <ul class="mt-0 vgth">
+                                    <li class="fs-8">
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi text-warning bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="float-end gvi">
+                                        <i class="bi text-danger bi-heart-fill"></i>
+                                    </li>
+                                </ul>
+                                <div class="row pt-2">
+                                    <div class="col-md-6">
+                                        <a href="/product4">
+                                            <button class="btn mb-2 fw-bold w-100 btn-danger">Просмотр</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="btn fw-bold w-100 btn-outline-danger">В корзину</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

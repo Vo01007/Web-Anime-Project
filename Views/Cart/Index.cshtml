@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "Cart";
+}
+
+<!--  ************************* Page Title Starts Here ************************** -->
+<div class="page-nav no-margin row">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-start">Ваша корзина</h2>
+            <ul>
+                <li> <a href="/"><i class="bi bi-house-door"></i> Домашняя страница</a></li>
+                <li><i class="bi bi-chevron-double-right pe-2"></i> Корзина</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--####################### About US Starts Here ###################-->
+<div class="container-fluid big-padding about-cover">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <table class="table bg-white shadow-md">
+                    <tr>
+                        <th>#</th>
+                        <th>Изображение</th>
+                        <th>Название</th>
+                        <th>Кол-во на заказ</th>
+                        <th>Цена</th>
+                        <th>Кол-во на складе</th>
+                        <th>Действие</th>
+                    </tr>
+                    <tr class="align-middle">
+                        <td>1</td>
+                        <td>
+                            <img class="max-100" src="~/Content/images/p1.jpg" alt="">
+                        </td>
+                        <td>Tokyo Revengers Chifuyu Matsuno Portrait Acrylic Key Chain</td>
+                        <td>2</td>
+                        <td>44</td>
+                        <td>88</td>
+                        <td>
+                            <button class="btn btn-xs pt-2 btn-danger"><i class="bi bi-trash"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="align-middle">
+                        <td>2</td>
+                        <td>
+                            <img class="max-100" src="~/Content/images/p3.jpg" alt="">
+                        </td>
+                        <td>Attack on Titan Jean Coffee Mug Cup</td>
+                        <td>1</td>
+                        <td>64</td>
+                        <td>64</td>
+                        <td>
+                            <button class="btn btn-xs pt-2 btn-danger"><i class="bi bi-trash"></i></button>
+                        </td>
+                    </tr>
+
+                </table>
+                <a href="/Check">
+                    <button class="btn btn-danger float-end fw-bolder px-4">Оплата</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
